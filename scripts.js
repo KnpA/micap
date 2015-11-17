@@ -15,6 +15,7 @@ $(document).ready(function(){
     
 	$('.menu_qui').WCircleMenu(wcircleparams);
 	$('.menu_ou').WCircleMenu(wcircleparams);
+	$('.menu_quand').WCircleMenu(wcircleparams);
 
 	$('.menu_qui .wcircle-menu-item').on('click',function(){
         if(!$('.menu_qui').hasClass("wcircle-animating")) {
@@ -27,6 +28,11 @@ $(document).ready(function(){
             $('.menu_ou .wcircle-icon').html($(this).html());
             $('.menu_ou .wcircle-icon div').html($('.menu_ou .wcircle-icon img').attr('title'));
         }
+	});
+    $('.menu_quand .wcircle-menu-item').on('click',function(){
+        if(!$('.menu_quand').hasClass("wcircle-animating")){           
+		  $('.menu_quand .wcircle-icon').html($(this).html());
+       }
 	});
 
 
