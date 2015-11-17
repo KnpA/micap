@@ -1,0 +1,56 @@
+
+.wcircle-menu-item{
+    border-radius:50%;
+    padding:2px;
+    width:65px;
+    height:65px;
+}
+
+.wcircle-menu-item img{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+}
+.circleSelector {
+    border-radius: 50%;
+    position: absolute; 
+    top: 50%;
+    transform: translateY(-50%);
+    width: 69px; 
+    height: 69px;
+}
+
+.wcircle-icon img{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+}
+
+.wcircle-icon {
+    border-radius:50%;
+    padding:2px;
+    width:65px;
+    height:65px;
+}
+
+.composer {
+    position: absolute;
+    top: 150px;
+    width : 800;
+    height: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #7777AA;
+}
+
+body {   
+    background-color: #555588; 
+}
+
+.menu_qui {
+    left: 100px;
+}
+
+.menu_ou {
+    left: 275px;
+}
