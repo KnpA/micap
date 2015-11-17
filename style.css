@@ -36,7 +36,7 @@
 .composer {
     position: absolute;
     top: 150px;
-    width : 800;
+    width : 850;
     height: 350px;
     left: 50%;
     transform: translateX(-50%);
@@ -57,4 +57,17 @@ body {
 
 .menu_quand {
     left : 450px;
+}
+
+.iotSelectorWrapper {
+    position: absolute;
+    height: 100%;
+    width: 275px;
+    right: 0px;
+    background-color: #77AAAA;
+    
+}
+
+.menu_iot {
+    left: 100px
 }
