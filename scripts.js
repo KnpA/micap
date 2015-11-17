@@ -31,8 +31,9 @@ $(document).ready(function(){
 	});
     $('.menu_quand .wcircle-menu-item').on('click',function(){
         if(!$('.menu_quand').hasClass("wcircle-animating")){           
-		  $('.menu_quand .wcircle-icon').html($(this).html());
-       }
+            $('.menu_quand .wcircle-icon').html($(this).html());
+            $('.menu_quand .wcircle-icon div').html($('.menu_quand .wcircle-icon img').attr('title'));
+        }
 	});
 
 
