@@ -17,14 +17,16 @@ $(document).ready(function(){
 	$('.menu_ou').WCircleMenu(wcircleparams);
 
 	$('.menu_qui .wcircle-menu-item').on('click',function(){
-        if(!$('.menu_qui').hasClass("wcircle-animating")){           
-		  $('.menu_qui .wcircle-icon').html($(this).html());
+        if(!$('.menu_qui').hasClass("wcircle-animating")) {
+            $('.menu_qui .wcircle-icon').html($(this).html());
+            $('.menu_qui .wcircle-icon div').html($('.menu_qui .wcircle-icon img').attr('title'));
        }
 	});
     $('.menu_ou .wcircle-menu-item').on('click',function(){
-        if(!$('.menu_ou').hasClass("wcircle-animating")){           
-		  $('.menu_ou .wcircle-icon').html($(this).html());
-       }
+        if(!$('.menu_ou').hasClass("wcircle-animating")){
+            $('.menu_ou .wcircle-icon').html($(this).html());
+            $('.menu_ou .wcircle-icon div').html($('.menu_ou .wcircle-icon img').attr('title'));
+        }
 	});
 
 
