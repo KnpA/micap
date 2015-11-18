@@ -22,12 +22,37 @@
 }
 
 .circleText {
-    margin-left: -25px;
+    margin-left: -65px;
     margin-top: 10px;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    width: 120px;
+    width: 200px;
     text-align: center;
+}
+
+.phrase {
+    position:absolute;
+    margin-left: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    width: 800px;
+    text-align: center;
+}
+
+.cyan {
+    color:cyan;
+}
+
+.green {
+    color:green;
+}
+
+.red {
+    color:red;
+}
+
+.yellow {
+    color:yellow;
 }
 
 .wcircle-icon img{
