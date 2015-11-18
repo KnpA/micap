@@ -1,9 +1,12 @@
 h1 {
     position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80px;
     color: white;
-    font-size: 50px;
+    font-size: 20px;
     font-family: 'Arial';
-    width: 100%;
+    width: 350px;
     text-align: center;
 }
 
@@ -119,4 +122,12 @@ body {
 
 .menu_iot {
     left: 100px
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 70px;
 }
