@@ -73,6 +73,10 @@ $(document).ready(function(){
 	});
     
     function updatePhrase() {
-        $('.phrase').html("Si <span class='cyan'>"+qui+"</span> se trouve dans <span class='green'>"+ou+"</span> <span class='yellow'>"+quand+"</span> alors <span class='red'>"+quoi+"</span>.")
+        if(qui == "personne") {
+            $('.phrase').html("Si <span class='cyan'>"+qui+"</span> ne se trouve dans <span class='green'>"+ou+"</span> <span class='yellow'>"+quand+"</span> alors <span class='red'>"+quoi+"</span>.")
+        } else {
+          $('.phrase').html("Si <span class='cyan'>"+qui+"</span> se trouve dans <span class='green'>"+ou+"</span> <span class='yellow'>"+quand+"</span> alors <span class='red'>"+quoi+"</span>.")  
+        }   
     }
 });
